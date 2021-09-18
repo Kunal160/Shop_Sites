@@ -1,0 +1,143 @@
+/*main document*/
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    margin: 0;
+
+}
+
+/*User login*/
+.container{
+    display: flex;
+    position: fixed;
+    flex: 1 1 100%;
+    flex-direction: column;
+    background: rgb(64, 64, 124);
+    background-image: linear-gradient(rgb(64, 64, 124), rgb(22, 22, 24));
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.login-box {
+    position: relative;
+    transform: translate(0%,25%);
+    border: 1px solid white; 
+    background-color: white;  
+    width: 400px;
+    height: 400px;
+    padding-top: 20px;
+}
+.login-box input[type=text], input[type=password] {
+    padding: 15px;
+    width: 95%;
+    display: block;
+    margin: 10px 10px;
+    border: 1px solid grey;
+    border-radius: 35px;    
+    box-sizing: border-box;
+}
+.login-box input:focus,textarea:focus {
+    outline: none;
+}
+
+.login-box p, h3 {
+    padding: 10px;
+}
+.login-box button {
+    background-color: tomato;
+    color: white;
+    border-radius: 3px;
+    padding: 8px;
+    margin: 15px 10px;
+    width: 95%;
+}
+.login-box a {
+    margin: 50px 15px;
+}
+
+.login-box a {
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: rgb(57, 57, 189);
+}
+
+
+/*User */
+.signup-container {
+    display: flex;
+    position: fixed;
+    flex: 1 1 100%;
+    flex-direction: column;
+    background: rgb(64, 64, 124);
+    background-image: linear-gradient(rgb(64, 64, 124), rgb(22, 22, 24));
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.signup-box {
+    position: relative;
+    transform: translate(0%,5%);
+    border: 1px solid white; 
+    background-color: white;  
+    width: 450px;
+    height: 600px;
+}
+
+#user-names input[type=text] {
+    margin-bottom: 40px;
+}
+
+.signup-box input[type=text], input[type=password] {
+    padding: 15px;
+    width: 95%;
+    display: block;
+    margin: 10px 10px;
+}
+.signup-box input[type=text], input[type=password], input[type=radio] {
+    border: 1px solid grey;
+    border-radius: 35px;
+    box-sizing: border-box;
+}
+.signup-box input[type=radio] {
+    margin-left: 10px;
+    margin-right: 15px;
+}
+.signup-box input:focus,textarea:focus {
+    outline: none;
+}
+.signup-box p, h3 {
+    padding: 10px;
+}
+.signup-box button {
+    background-color: tomato;
+    color: white;
+    border-radius: 3px;
+    padding: 8px;
+    margin : 15px 10px;
+    width: 95%;
+}
+.signup-box a {
+    font-size: 12px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    color: black;
+}
+.signup-box a:hover {
+    color: rgb(57, 57, 189);
+}
+
+/*index*/
+
